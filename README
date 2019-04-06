@@ -1,14 +1,14 @@
-trw
+Torwali
 
                             apertium-trw
 ===============================================================================
 
-This is an Apertium monolingual language package for trw. What
+This is an Apertium monolingual language package for Torwali. What
 you can use this language package for:
 
-* Morphological analysis of trw
-* Morphological generation of trw
-* Part-of-speech tagging of trw
+* Morphological analysis of Torwali
+* Morphological generation of Torwali
+* Part-of-speech tagging of Torwali
 
 Requirements
 ===============================================================================
