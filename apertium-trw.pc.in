@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-trw
+
+Name: apertium-trw
+Description: Finite-state morphological transducer and constraint grammar for trw 
+Version: @VERSION@
+
