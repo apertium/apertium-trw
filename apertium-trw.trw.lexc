@@ -3,7 +3,9 @@
 Multichar_Symbols
 
 ! Part of speech categories
-%<n%>   ! Noun
+%<n%>     ! Noun
+%<adj%>   ! Adjective 
+%<post%>  ! Postposition 
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -20,12 +22,24 @@ Multichar_Symbols
 LEXICON Root
 
 NounRoot ;
+Adjectives ;
+Postpositions ;
 
 
 LEXICON RegNounInfl
 
 %<n%>%<sg%>: # ;
-%<n%>%<pl%>:%>s # ;
+
+LEXICON ADJ
+
+%<adj%>: # ;
+
+
+LEXICON POST
+
+%<post%>: # ;
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -34,46 +48,72 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A noun
-آب:آب RegNounInfl ; ! "شرم، لاج یا حیاء"
-آبادی:آبادی RegNounInfl ; ! "عمارت"
-اچار:اچار RegNounInfl ; ! "اچار"
-ادب:ادب RegNounInfl ; ! "ادب، شائستگی، تمیز"
-آدت:آدت RegNounInfl ; ! "عادت"
-اَدوس:اَدوس RegNounInfl ; ! "وضو، طہارت"
-آدُوم:آدُوم RegNounInfl ; ! "جسم کا کوئی ایک عضو یا حصہ"
-افلَتے:افلَتے RegNounInfl ; ! "مغلّظات، گندی زبان یافحش باتیں"
-اَگھراڑ:اَگھراڑ RegNounInfl ; ! "گندم کے آٹے کا حلوا"
-اغَز:اغَز RegNounInfl ; ! "طنز، تمسخر یا اُلٹ بات، اشارہً طعنہ"
-اَہاڑ:اَہاڑ RegNounInfl ; ! "ہاڑ کا مہینہ، جون جولائی پر محیط ہندی کیلنڈر کا چوتھا مہینہ ہے"
-احکام:احکام RegNounInfl ; ! "احکام"
-آیندہ:آیندہ RegNounInfl ; ! "آیندہ، پھر"  
-اجل:اجل RegNounInfl ; ! "اجل، موت یا موت کا وقت"
-اجَر:اجَر RegNounInfl ; ! "اجر ، بدلہ یا ثواب"
-آل:آل RegNounInfl ; ! "نسل، اولاد"
-الا:الا RegNounInfl ; ! "کدو کی ایک قسم، لوکی"
-آلو:آلو RegNounInfl ; ! "آلو"
-آلوک:آلوک RegNounInfl ; ! "املوک"
-عمل:عمل RegNounInfl ; ! "عمل"
-امبار:امبار RegNounInfl ; ! "ذخیرہ یا ڈھیر"
-امبُور:امبُور RegNounInfl ; ! "زنبور،موچی کا اوزار"
-اموڜا : اموڜا RegNounInfl ; ! "بھول چوک، نسیان، بھولپن"
-آن:آن RegNounInfl ; ! "انڈا"
-آنہ:آنہ RegNounInfl ; ! "روپے کا سولہواں حصّہ یا آنہ"
-اندازہ:اندازہ RegNounInfl ; ! "اندازہ،اٹکل یا تخمینہ"
-اندر:اندر RegNounInfl ; ! "انتڑی، آنت"
-آنڈل:آنڈل RegNounInfl ; ! "ہینڈل، دستہ"
-اَنڈیوال:اَنڈیوال RegNounInfl ; ! "ہانڈی وال، کام یا ملازمت کے ساتھی"
-انگئ:انگئ RegNounInfl ; ! "جلی ہوئی لکڑی کا کوئلہ"
-انگٹی:انگٹی RegNounInfl ; ! "انگیٹھی، آتشدان"
-انگُشتان:انگُشتان RegNounInfl ; ! "ایک قسم کی انگوٹھی"
-انگُوٹ:انگُوٹ RegNounInfl ; ! "انگوٹھا"
-عقل:عقل RegNounInfl ; ! "عقل، شعور"
-آر:آر RegNounInfl ; ! "آٹا"
-آرَت:آرَت RegNounInfl ; ! "کشادہ،کھلا یا وسیع"
+house:house RegNounInfl ; ! A Noun
+
+آب:آب RegNounInfl ;
+آبادی:آبادی RegNounInfl ; 
+اچار:اچار RegNounInfl ;
+آدت:آدت RegNounInfl ;
+اَدوس:اَدوس RegNounInfl ;
+آدُوم:آدُوم RegNounInfl ; 
+افلَتے:افلَتے RegNounInfl ;
+اَگھراڑ:اَگھراڑ RegNounInfl ;
+اغَز:اغَز RegNounInfl ; 
+اَہاڑ:اَہاڑ RegNounInfl ; 
+احکام:احکام RegNounInfl ;
+آیندہ:آیندہ RegNounInfl ;
+اجل:اجل RegNounInfl ;
+اجَر:اجَر RegNounInfl ; 
+آل:آل RegNounInfl ; 
+الا:الا RegNounInfl ; 
+آلو:آلو RegNounInfl ;
+آلوک:آلوک RegNounInfl ;
+عمل:عمل RegNounInfl ; 
+امبار:امبار RegNounInfl ;
+امبُور:امبُور RegNounInfl ;
+اموڜا : اموڜا RegNounInfl ;
+آن:آن RegNounInfl ; 
+آنہ:آنہ RegNounInfl ; 
+اندازہ:اندازہ RegNounInfl ;
+اندر:اندر RegNounInfl ; 
+آنڈل:آنڈل RegNounInfl ; 
+اَنڈیوال:اَنڈیوال RegNounInfl ;
+انگئ:انگئ RegNounInfl ; 
+انگٹی:انگٹی RegNounInfl ; 
+انگُشتان:انگُشتان RegNounInfl ;
+انگُوٹ:انگُوٹ RegNounInfl ; 
+عقل:عقل RegNounInfl ; 
+آر:آر RegNounInfl ; 
+آرَت:آرَت RegNounInfl ;  
+میلأڜ‌:میلأڜ‌ RegNounInfl ; 
+بُھم:بُھم RegNounInfl;
 
 
 
+
+LEXICON Adjectives
+بژیل:بژیل ADJ ;
+لوٷ:لوٷ ADJ ;
+کم:کم ADJ ;
+بُٹ:بُٹ ADJ ;
+خپا:خپا ADJ ;
+
+
+
+
+
+LEXICON Postpositions
+
+دے:دے POST ;
+کو:کو POST ;
+آ:آ POST ;
+سی:سی POST ;
+سیت:سیت POST ;
+ما:ما POST ;
+
+
+
+ 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
@@ -82,4 +122,3 @@ house:house RegNounInfl ; ! A noun
 ! https://github.com/hfst/
 ! http://www.cis.upenn.edu/~cis639/docs/lexc.html
 ! http://wiki.apertium.org/wiki/Hfst
-
