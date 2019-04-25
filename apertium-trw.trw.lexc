@@ -5,8 +5,7 @@ Multichar_Symbols
 ! Part of speech categories
 %<n%>     ! Noun
 %<adj%>   ! Adjective 
-%<post%>  ! Postposition
-%<prn%>   ! Pronoun 
+%<post%>  ! Postposition 
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -25,7 +24,7 @@ LEXICON Root
 NounRoot ;
 Adjectives ;
 Postpositions ;
-Pronouns ;
+
 
 
 LEXICON RegNounInfl
@@ -41,10 +40,6 @@ LEXICON POST
 
 %<post%>: # ;
 
-
-LEXICON PRN
-
-%<prn%>: # ;
 
 
 
@@ -78,7 +73,7 @@ LEXICON NounRoot
 عمل:عمل RegNounInfl ; 
 امبار:امبار RegNounInfl ;
 امبُور:امبُور RegNounInfl ;
-اموݜا:اموݜاRegNounInfl;
+اموݜا:اموݜا RegNounInfl ;
 آن:آن RegNounInfl ; 
 آنہ:آنہ RegNounInfl ; 
 اندازہ:اندازہ RegNounInfl ;
@@ -92,7 +87,7 @@ LEXICON NounRoot
 عقل:عقل RegNounInfl ; 
 آر:آر RegNounInfl ; 
 آرَت:آرَت RegNounInfl ;  
-میلأݜ:میلأݜRegNounInfl; 
+میلأݜ:میلأݜ RegNounInfl ; 
 بُھم:بُھم RegNounInfl;
 آسو:آسو  RegNounInfl  ; 
 آش:آش  RegNounInfl  ;
@@ -404,7 +399,6 @@ LEXICON Postpositions
 ما:ما POST ;
 
 
-LEXICON Pronouns
 
 
  
