@@ -5,7 +5,8 @@ Multichar_Symbols
 ! Part of speech categories
 %<n%>     ! Noun
 %<adj%>   ! Adjective 
-%<post%>  ! Postposition 
+%<post%>  ! Postposition
+%<prn%>   ! Pronoun 
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -24,6 +25,7 @@ LEXICON Root
 NounRoot ;
 Adjectives ;
 Postpositions ;
+Pronouns ;
 
 
 LEXICON RegNounInfl
@@ -40,6 +42,11 @@ LEXICON POST
 %<post%>: # ;
 
 
+LEXICON PRN
+
+%<prn%>: # ;
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -48,7 +55,7 @@ LEXICON POST
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A Noun
+
 
 آب:آب RegNounInfl ;
 آبادی:آبادی RegNounInfl ; 
@@ -396,6 +403,8 @@ LEXICON Postpositions
 سیت:سیت POST ;
 ما:ما POST ;
 
+
+LEXICON Pronouns
 
 
  
