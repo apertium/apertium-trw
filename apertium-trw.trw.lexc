@@ -71,7 +71,7 @@ house:house RegNounInfl ; ! A Noun
 عمل:عمل RegNounInfl ; 
 امبار:امبار RegNounInfl ;
 امبُور:امبُور RegNounInfl ;
-اموڜا : اموڜا RegNounInfl ;
+اموݜا:اموݜاRegNounInfl;
 آن:آن RegNounInfl ; 
 آنہ:آنہ RegNounInfl ; 
 اندازہ:اندازہ RegNounInfl ;
@@ -85,7 +85,7 @@ house:house RegNounInfl ; ! A Noun
 عقل:عقل RegNounInfl ; 
 آر:آر RegNounInfl ; 
 آرَت:آرَت RegNounInfl ;  
-میلأڜ:میلأڜ RegNounInfl ; 
+میلأݜ:میلأݜRegNounInfl; 
 بُھم:بُھم RegNounInfl;
 آسو:آسوRegNounInfl; 
 آش:آشRegNounInfl;
