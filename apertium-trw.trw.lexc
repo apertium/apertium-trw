@@ -442,65 +442,6 @@ LEXICON Adjectives
 
 
 
-LEXICON Preposition
-
-آ:آ PREPOS ;	
-أ:أ	PREPOS ;
-اَبن:اَبن	PREPOS ;
-اَپن:اَپن	PREPOS ;
-اِسی:اِسی	PREPOS ;
-امَن:امَن	PREPOS ;
-اِی:اِی	PREPOS ;
-ایز:ایز	PREPOS ;
-اے:اے PREPOS ;	
-پَۓ:پَۓ PREPOS ;	
-تأ:تأ PREPOS ;	
-تِسی:تِسی	PREPOS ;
-تُن تُنو:تُن تُنو PREPOS ;	
-تھأ:تھأ	PREPOS ;
-تھأ:تھأ	PREPOS ;
-تھأ:تھأ	PREPOS ;
-تُھن:تُھن	PREPOS ;
-تھو:تھو	PREPOS ;
-تھوئے:تھوئے	PREPOS ;
-تھوئے:تھوئے	PREPOS ;
-تھیت:تھیت PREPOS ;	
-تِھین:تِھین PREPOS ;	
-تھیۓ:تھیۓ PREPOS ;	
-تھے:تھے	PREPOS ;
-تُو:تُو PREPOS ;	
-تُونُو:تُونُو PREPOS ;	
-تی:تی PREPOS ;	
-تی:تی PREPOS ;	
-تَیس:تَیس	PREPOS ;
-تے:تے PREPOS ;	
-چھی:چھی PREPOS ;	
-سے:سے PREPOS ;	
-کآم:کآم	PREPOS ;
-کآم:کآم PREPOS ;	
-کا:کا PREPOS ;	
-کامیک:کامیک PREPOS ;	
-کِسی:کِسی PREPOS ;	
-کَھدات:کَھدات PREPOS ;	
-کِھین:کِھین PREPOS ;	
-کینئس:کینئس PREPOS ;	
-کیںیں:کیںیں PREPOS ;	
-مأ:مأ PREPOS ;	
-مھأ:مھأ PREPOS ;	
-مھأ:مھأ PREPOS ;	
-مُھن:مُھن PREPOS ;	
-مِھن:مِھن PREPOS ;	
-مھو:مھو PREPOS ;	
-مھوئے:مھوئے PREPOS ;	
-مھوئے:مھوئے PREPOS ;	
-مِھی:مِھی PREPOS ;	
-مھے:مھے	PREPOS ;
-مے:مے PREPOS ;	
-ہِین:ہِین	PREPOS ;
-ہے:ہے PREPOS ;	
-یِی:یِی PREPOS ;	
-ییسی:ییسی PREPOS ;
-
 LEXICON Postpositions
 
 دے:دے POST ;
@@ -528,6 +469,62 @@ LEXICON Postpositions
 می:می POST ;
 وا:وا POST ;
 یے:یے POST ;
+آ:آ POST ;	
+أ:أ	POST ;
+اَبن:اَبن	POST ;
+اَپن:اَپن	POST ;
+اِسی:اِسی	POST ;
+امَن:امَن	POST ;
+اِی:اِی	POST ;
+ایز:ایز	POST ;
+اے:اے POST ;	
+پَۓ:پَۓ POST ;	
+تأ:تأ POST ;	
+تِسی:تِسی	POST ;
+تُن تُنو:تُن تُنو POST ;	
+تھأ:تھأ	POST ;
+تھأ:تھأ	POST ;
+تھأ:تھأ	POST ;
+تُھن:تُھن	POST ;
+تھو:تھو	POST ;
+تھوئے:تھوئے	POST ;
+تھوئے:تھوئے	POST ;
+تھیت:تھیت POST ;	
+تِھین:تِھین POST ;	
+تھیۓ:تھیۓ POST ;	
+تھے:تھے	POST ;
+تُو:تُو POST ;	
+تُونُو:تُونُو POST ;	
+تی:تی POST ;	
+تی:تی POST ;	
+تَیس:تَیس	POST ;
+تے:تے POST ;	
+چھی:چھی POST ;	
+سے:سے POST ;	
+کآم:کآم	POST ;
+کآم:کآم POST ;	
+کا:کا POST ;	
+کامیک:کامیک POST ;	
+کِسی:کِسی POST ;	
+کَھدات:کَھدات POST ;	
+کِھین:کِھین POST ;	
+کینئس:کینئس POST ;	
+کیںیں:کیںیں POST ;	
+مأ:مأ POST ;	
+مھأ:مھأ POST ;	
+مھأ:مھأ POST ;	
+مُھن:مُھن POST ;	
+مِھن:مِھن POST ;	
+مھو:مھو POST ;	
+مھوئے:مھوئے POST ;	
+مھوئے:مھوئے POST ;	
+مِھی:مِھی POST ;	
+مھے:مھے	POST ;
+مے:مے POST ;	
+ہِین:ہِین	POST ;
+ہے:ہے POST ;	
+یِی:یِی POST ;	
+یی سی:یی سی POST ;
 
 
 
