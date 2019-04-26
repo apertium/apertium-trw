@@ -6,7 +6,7 @@ Multichar_Symbols
 %<n%>     ! Noun
 %<adj%>   ! Adjective 
 %<post%>  ! Postposition 
-%<prepos%> ! Preposition
+
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -25,7 +25,7 @@ LEXICON Root
 NounRoot ;
 Adjectives ;
 Postpositions ;
-Preposition ;
+
 
 
 
@@ -37,9 +37,6 @@ LEXICON ADJ
 
 %<adj%>: # ;
 
-LEXICON PREPOS
-
-%<prepos%>: # ;
 
 LEXICON POST
 
