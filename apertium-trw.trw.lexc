@@ -8,6 +8,9 @@ Multichar_Symbols
 %<post%>  ! Postposition
 %<prn%>   ! Pronoun
 %<adv%>   ! Adverb
+%<conj%>  ! Conjunction
+%<inter%> ! Interjection
+
 
 
 ! Number morphology
@@ -29,6 +32,8 @@ Adjectives ;
 Postpositions ;
 Pronouns ;
 Adverbs ;
+Conjunction ;
+Interjection :
 
 
 
@@ -55,6 +60,15 @@ LEXICON PRN
 LEXICON ADV 
 
 %<adv%>: # ;
+
+LEXICON CONJ
+
+%<conj%>: # ;
+
+LEXICON INTER
+
+%<inter%>: # ;
+
 
 
 
