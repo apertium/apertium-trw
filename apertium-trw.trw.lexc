@@ -6,10 +6,10 @@ Multichar_Symbols
 %<n%>     ! Noun
 %<adj%>   ! Adjective 
 %<post%>  ! Postposition
-%<prn%>   ! Pronoun
+%<pr%>    ! Pronoun
 %<adv%>   ! Adverb
-%<conj%>  ! Conjunction
-%<inter%> ! Interjection
+%<cnj%>   ! Conjunction
+%<ij%>    ! Interjection
 
 
 
@@ -52,22 +52,22 @@ LEXICON POST
 %<post%>: # ;
 
 
-LEXICON PRN
+LEXICON PR
 
-%<prn%>: # ;
+%<pr%>: # ;
 
 
 LEXICON ADV 
 
 %<adv%>: # ;
 
-LEXICON CONJ
+LEXICON CNJ
 
-%<conj%>: # ;
+%<cnj%>: # ;
 
-LEXICON INTER
+LEXICON IJ
 
-%<inter%>: # ;
+%<ij%>: # ;
 
 
 
@@ -563,28 +563,28 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-آ:آ PRN ;
-امَن:امَن PRN ;
-ہے:ہے PRN ;
-ہِین:ہِین PRN ;
-کا:کا PRN ;
-کامیک:کامیک PRN ;
-کیس:کیس PRN ;
-کینئس:کینئس PRN ;
-کیںیں:کیںیں PRN ;
-کا:کا PRN ;
-کآم:کآم PRN ;
-کَھدات:کَھدات PRN ;
-کِھین:کِھین PRN ;
-کِسی:کِسی PRN ;
-مأ:مأ PRN ;
-مے:مے PRN ;
-مھے:مھے PRN ;
-مِھن:مِھن PRN ;
-مھو:مھو PRN ;
-مھوئے:مھوئے PRN ;
-مُھن:مُھن PRN ;
-پَۓ:پَۓ PRN ;
+آ:آ PR ;
+امَن:امَن PR ;
+ہے:ہے PR ;
+ہِین:ہِین PR ;
+کا:کا PR ;
+کامیک:کامیک PR ;
+کیس:کیس PR ;
+کینئس:کینئس PR ;
+کیںیں:کیںیں PR ;
+کا:کا PR ;
+کآم:کآم PR ;
+کَھدات:کَھدات PR ;
+کِھین:کِھین PR ;
+کِسی:کِسی PR ;
+مأ:مأ PR ;
+مے:مے PR ;
+مھے:مھے PR ;
+مِھن:مِھن PR ;
+مھو:مھو PR ;
+مھوئے:مھوئے PR ;
+مُھن:مُھن PR ;
+پَۓ:پَۓ PR ;
 
 LEXICON Adverbs
 
@@ -597,57 +597,57 @@ LEXICON Adverbs
 
 LEXICON Conjunctions
 
-آں:آں CONJ ;
-اَسے:اَسے	CONJ ;
-اما:اما	CONJ ;
-بَنے:بَنے	CONJ ;
-بھی:بھی	CONJ ;
-بوأکے:بوأکے CONJ ;	
-پیَز:پیَز	CONJ ;
-خانا پورے:خانا پورے CONJ ;	
-خو:خو CONJ ;	
-سَیم:سَیم	CONJ ;
-شات:شات	CONJ ;
-کئیکے:کئیکے CONJ ;	
-کچرے:کچرے CONJ ;	
-کھأگودُو:کھأگودُو	CONJ ;
-کو:کو CONJ ;
-کو:کو CONJ ;
-گڈسرہ:گڈسرہ CONJ ;	
-گوأکے:گوأکے CONJ ;	
-نأؤ:نأؤ	CONJ ;
-نکئ کی نأ :نکئ کی نأ CONJ ;	
-ہُم:ہُم	CONJ ;
-و:و	CONJ ;
-یأ:یأ CONJ ;	
-یا:یا CONJ ;
+آں:آں CNJ ;
+اَسے:اَسے	CNJ ;
+اما:اما	CNJ ;
+بَنے:بَنے	CNJ ;
+بھی:بھی	CNJ ;
+بوأکے:بوأکے CNJ ;	
+پیَز:پیَز	CNJ ;
+خانا پورے:خانا پورے CNJ ;	
+خو:خو CNJ ;	
+سَیم:سَیم	CNJ ;
+شات:شات	CNJ ;
+کئیکے:کئیکے CNJ ;	
+کچرے:کچرے CNJ ;	
+کھأگودُو:کھأگودُو	CNJ ;
+کو:کو CNJ ;
+کو:کو CNJ ;
+گڈسرہ:گڈسرہ CNJ ;	
+گوأکے:گوأکے CNJ ;	
+نأؤ:نأؤ	CNJ ;
+نکئ کی نأ :نکئ کی نأ CNJ ;	
+ہُم:ہُم	CNJ ;
+و:و	CNJ ;
+یأ:یأ CNJ ;	
+یا:یا CNJ ;
 
 LEXICON Interjections
 
-آ:آ INTER ;	
-أبأ:أبأ INTER ;		
-اخّ:اخّ INTER ;		
-اَݜ:اَݜ INTER ;		
-اقّا:اقّا INTER ;		
-اَلآ:اَلآ INTER ;		
-او:او INTER ;		
-اے:اے INTER ;		
-بأ:بأ INTER ;		
-بچُو:بچُو INTER ;		
-بڑبڑ یے:بڑبڑ یے INTER ;		
-بُومارِک:بُومارِک INTER ;		
-پأ:پأ INTER ;		
-پِشو:پِشو INTER ;		
-پِشے:پِشے INTER ;		
-تَت:تَت INTER ;		
-تتے:تتے INTER ;		
-تخے:تخے INTER ;		
-تو یے:تو یے INTER ;		
-تی تی:تی تی INTER ;		
-ٹشے:ٹشے INTER ;		
-ٹوش یے:ٹوش یے INTER ;		
-چوہو:چوہو INTER ;	
-خا:خا INTER ;
+آ:آ IJ ;	
+أبأ:أبأ IJ ;		
+اخّ:اخّ IJ ;		
+اَݜ:اَݜ IJ ;		
+اقّا:اقّا IJ ;		
+اَلآ:اَلآ IJ ;		
+او:او IJ ;		
+اے:اے IJ ;		
+بأ:بأ IJ ;		
+بچُو:بچُو IJ ;		
+بڑبڑ یے:بڑبڑ یے IJ ;		
+بُومارِک:بُومارِک IJ ;		
+پأ:پأ IJ ;		
+پِشو:پِشو IJ ;		
+پِشے:پِشے IJ ;		
+تَت:تَت IJ ;		
+تتے:تتے IJ ;		
+تخے:تخے IJ ;		
+تو یے:تو یے IJ ;		
+تی تی:تی تی IJ ;		
+ٹشے:ٹشے IJ ;		
+ٹوش یے:ٹوش یے IJ ;		
+چوہو:چوہو IJ ;	
+خا:خا IJ ;
 
 
 
