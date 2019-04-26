@@ -6,9 +6,7 @@ Multichar_Symbols
 %<n%>     ! Noun
 %<adj%>   ! Adjective 
 %<post%>  ! Postposition 
-%<prn%>   ! Pronoun
-%<adv%>   ! Adverb
-
+%<prepos%> ! Preposition
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -27,8 +25,7 @@ LEXICON Root
 NounRoot ;
 Adjectives ;
 Postpositions ;
-Pronouns ;
-Adverbs ;
+Preposition ;
 
 
 
@@ -44,15 +41,6 @@ LEXICON ADJ
 LEXICON POST
 
 %<post%>: # ;
-
-LEXICON PRN
-
-%<prn%>: # ;
-
-
-LEXICON ADV 
-
-%<adv%>: # ;
 
 
 
@@ -437,6 +425,7 @@ LEXICON Adjectives
 بازأری:بازأری ADJ ;
 بالِغ:بالِغ ADJ ;
 بان:بان ADJ ;
+بُٹ:بُٹ ADJ ;
 بختور:بختور ADJ ;
 بخیل:بخیل ADJ ;
 بدعَملہ:بدعَملہ ADJ ;
@@ -447,20 +436,67 @@ LEXICON Adjectives
 بدمعاش:بدمعاش ADJ ;
 بدنام:بدنام ADJ ;
 بدنصیبا:بدنصیبا ADJ ;
-اَوتر:اَوتر ADJ ;
-آژُوک:آژُوک ADJ ;
-آختہ:آختہ ADJ
-اَخکارہ:اَخکارہ ADJ ;
-انان:انان ADJ ;
-اَنّ:اَنّ ADJ ;
-گوشتی:گوشتی ADJ ;
-ہریک:ہریک ADJ ;
-ہرکآم:ہرکآم ADJ ;
-کمَصل:کمَصل ADJ ;
 
 
 
+LEXICON Preposition
 
+آ:آ PREPOS ;	
+أ:أ	PREPOS ;
+اَبن:اَبن	PREPOS ;
+اَپن:اَپن	PREPOS ;
+اِسی:اِسی	PREPOS ;
+امَن:امَن	PREPOS ;
+اِی:اِی	PREPOS ;
+ایز:ایز	PREPOS ;
+اے:اے PREPOS ;	
+پَۓ:پَۓ PREPOS ;	
+تأ:تأ PREPOS ;	
+تِسی:تِسی	PREPOS ;
+تُن تُنو:تُن تُنو PREPOS ;	
+تھأ:تھأ	PREPOS ;
+تھأ:تھأ	PREPOS ;
+تھأ:تھأ	PREPOS ;
+تُھن:تُھن	PREPOS ;
+تھو:تھو	PREPOS ;
+تھوئے:تھوئے	PREPOS ;
+تھوئے:تھوئے	PREPOS ;
+تھیت:تھیت PREPOS ;	
+تِھین:تِھین PREPOS ;	
+تھیۓ:تھیۓ PREPOS ;	
+تھے:تھے	PREPOS ;
+تُو:تُو PREPOS ;	
+تُونُو:تُونُو PREPOS ;	
+تی:تی PREPOS ;	
+تی:تی PREPOS ;	
+تَیس:تَیس	PREPOS ;
+تے:تے PREPOS ;	
+چھی:چھی PREPOS ;	
+سے:سے PREPOS ;	
+کآم:کآم	PREPOS ;
+کآم:کآم PREPOS ;	
+کا:کا PREPOS ;	
+کامیک:کامیک PREPOS ;	
+کِسی:کِسی PREPOS ;	
+کَھدات:کَھدات PREPOS ;	
+کِھین:کِھین PREPOS ;	
+کینئس:کینئس PREPOS ;	
+کیںیں:کیںیں PREPOS ;	
+مأ:مأ PREPOS ;	
+مھأ:مھأ PREPOS ;	
+مھأ:مھأ PREPOS ;	
+مُھن:مُھن PREPOS ;	
+مِھن:مِھن PREPOS ;	
+مھو:مھو PREPOS ;	
+مھوئے:مھوئے PREPOS ;	
+مھوئے:مھوئے PREPOS ;	
+مِھی:مِھی PREPOS ;	
+مھے:مھے	PREPOS ;
+مے:مے PREPOS ;	
+ہِین:ہِین	PREPOS ;
+ہے:ہے PREPOS ;	
+یِی:یِی PREPOS ;	
+ییسی:ییسی PREPOS ;
 
 LEXICON Postpositions
 
@@ -489,43 +525,7 @@ LEXICON Postpositions
 می:می POST ;
 وا:وا POST ;
 یے:یے POST ;
-کیژا:کیژا POST ;
-کأ:کأ POST ;
-می:می POST ;
 
-
-LEXICON Pronouns
-آ:آ PRN ;
-امَن:امَن PRN ;
-ہے:ہے PRN ;
-ہِین:ہِین PRN ;
-کا:کا PRN ;
-کامیک:کامیک PRN ;
-کیس:کیس PRN ;
-کینئس:کینئس PRN ;
-کیںیں:کیںیں PRN ;
-کا:کا PRN ;
-کآم:کآم PRN ;
-کَھدات:کَھدات PRN ;
-کِھین:کِھین PRN ;
-کِسی:کِسی PRN ;
-مأ:مأ PRN ;
-مے:مے PRN ;
-مھے:مھے PRN ;
-مِھن:مِھن PRN ;
-مھو:مھو PRN ;
-مھوئے:مھوئے PRN ;
-مُھن:مُھن PRN ;
-پَۓ:پَۓ PRN ;
-
-
-LEXICON Adverbs
-امَنا:امَنا ADV ;
-اَسُودا:اَسُودا ADV ;
-اجَن:اجَن ADV ;
-علاوہ:علاوہ ADV ;
-ہأئیمُو:ہأئیمُو ADV ;
-ہیدیک:ہیدیک ADV ;
 
 
 
