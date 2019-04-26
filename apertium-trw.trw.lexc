@@ -37,6 +37,9 @@ LEXICON ADJ
 
 %<adj%>: # ;
 
+LEXICON PREPOST
+
+%<prepost%>: # ;
 
 LEXICON POST
 
