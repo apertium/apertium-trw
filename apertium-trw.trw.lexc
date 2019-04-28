@@ -47,19 +47,22 @@ Interjections ;
 LEXICON N-M
 
 %<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>: # ;
 
 LEXICON N-F
 
 %<n%>%<f%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>: # ;
 
 LEXICON N-NT
 
 %<n%>%<nt%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>: # ;
 
 LEXICON N-MF
 
 %<n%>%<mf%>%<sg%>: # ;
-
+%<n%>%<m%>%<pl%>: # ;
 
 LEXICON ADJ
 
