@@ -8,8 +8,6 @@ Multichar_Symbols
 %<post%>  ! Postposition
 %<pr%>    ! Pronoun
 %<v%>     ! Verb
-%<pres%>  ! Pres
-%<inf%>   ! Infinitives
 %<adv%>   ! Adverb
 %<cnj%>   ! Conjunction
 %<ij%>    ! Interjection
@@ -25,6 +23,10 @@ Multichar_Symbols
 %<f%>   ! Feminine
 %<nt%>  ! Neuter
 %<mf%>  ! Masculine/Feminine
+
+! Verb forms
+%<pres%>  ! Pres
+%<inf%>   ! Infinitives
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -535,7 +537,6 @@ LEXICON Interjections
 ٹوش%یے:ٹوش%یے IJ ;		
 چوہو:چوہو IJ ;	
 خا:خا IJ ;
-
 
 
 
