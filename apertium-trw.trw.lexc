@@ -72,11 +72,17 @@ LEXICON N-MF
 %<n%>%<mf%>%<sg%>: # ;
 %<n%>%<m%>%<pl%>: # ;
 
-LEXICON V
+LEXICON V-INF
 
 %<v%>%<inf%>:%>و # ;
 %<v%>%<m%>%<pres%>:%>دو # ;
 %<v%>%<f%>%<pres%>:%>جی # ;
+
+LEXICON VT
+%<v%>%<vt%>: # ;
+
+LEXICON VI
+%<v%>%<vi%>: # ;
 
 
 LEXICON ADJ
