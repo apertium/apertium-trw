@@ -7,10 +7,13 @@ Multichar_Symbols
 %<adj%>   ! Adjective 
 %<post%>  ! Postposition
 %<pr%>    ! Pronoun
+%<v%>     ! Verb
+%<pres%>  ! Pres
+%<inf%>   ! Infinitives
 %<adv%>   ! Adverb
 %<cnj%>   ! Conjunction
 %<ij%>    ! Interjection
-%<v%>     ! Verb
+
 
 
 ! Number morphology
@@ -22,10 +25,6 @@ Multichar_Symbols
 %<f%>   ! Feminine
 %<nt%>  ! Neuter
 %<mf%>  ! Masculine/Feminine
-
-! Verb forms
-%<inf%>   ! Infinitive
-%<pres%>  ! Present
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -41,10 +40,10 @@ NounRoot ;
 Adjectives ;
 Postpositions ;
 Pronouns ;
+Verbs ;
 Adverbs ;
 Conjunctions ;
 Interjections ;
-Verbs ;
 
 
 
@@ -68,6 +67,13 @@ LEXICON N-MF
 
 %<n%>%<mf%>%<sg%>: # ;
 %<n%>%<m%>%<pl%>: # ;
+
+LEXICON V
+
+%<v%>%<inf%>:%>و # ;
+%<v%>%<m%>%<pres%>:%>دو # ;
+%<v%>%<f%>%<pres%>:%>جی # ;
+
 
 LEXICON ADJ
 
@@ -96,12 +102,6 @@ LEXICON IJ
 
 %<ij%>: # ;
 
-
-LEXICON V
-
-%<v%>%<inf%>: ؤ # ;
-%<v%>%<m%>%<pres%>:دو # ;
-%<v%>%<f%>%<pres%>:ِیئ # ;
 
 
 
@@ -278,8 +278,17 @@ LEXICON NounRoot
 
 
 
+LEXICON Verbs
 
-
+ڙینگ:ڙینگ V ;
+بھی:بھی  V ;
+بن:بن V ;
+ڙنوگ:ڙنوگ V ;
+چینگ:چینگ V ;
+آونگ:آونگ V ;
+آی:آی V ;
+أمیژ:أمیژ V ;
+أنٹکدی;أنٹکدی V ;
 
 
 
@@ -528,9 +537,6 @@ LEXICON Interjections
 خا:خا IJ ;
 
 
-LEXICON Verbs
-
-کھا:کھا V ;
 
 
 
