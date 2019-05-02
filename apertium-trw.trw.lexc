@@ -10,7 +10,7 @@ Multichar_Symbols
 %<adv%>   ! Adverb
 %<cnj%>   ! Conjunction
 %<ij%>    ! Interjection
-
+%<v%>     ! Verb
 
 
 ! Number morphology
@@ -22,6 +22,10 @@ Multichar_Symbols
 %<f%>   ! Feminine
 %<nt%>  ! Neuter
 %<mf%>  ! Masculine/Feminine
+
+! Verb forms
+%<inf%>   ! Infinitive
+%<pres%>  ! Present
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -40,6 +44,7 @@ Pronouns ;
 Adverbs ;
 Conjunctions ;
 Interjections ;
+Verbs ;
 
 
 
@@ -91,6 +96,12 @@ LEXICON IJ
 
 %<ij%>: # ;
 
+
+LEXICON V
+
+%<v%>%<inf%>: ؤ # ;
+%<v%>%<m%>%<pres%>:دو # ;
+%<v%>%<f%>%<pres%>:ِیئ # ;
 
 
 
@@ -517,6 +528,9 @@ LEXICON Interjections
 خا:خا IJ ;
 
 
+LEXICON Verbs
+
+کھا:کھا V ;
 
 
 
