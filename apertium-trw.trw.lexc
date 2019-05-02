@@ -79,10 +79,10 @@ LEXICON V-INF
 %<v%>%<f%>%<pres%>:%>جی # ;
 
 LEXICON VT
-%<v%>%<vt%>: # ;
+%<v%>%<vt%>:%>وؤ # ;
 
 LEXICON VI
-%<v%>%<vi%>: # ;
+%<v%>%<vi%>:%>ہوؤ # ;
 
 
 LEXICON ADJ
