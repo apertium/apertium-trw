@@ -27,6 +27,8 @@ Multichar_Symbols
 ! Verb forms
 %<pres%>  ! Pres
 %<inf%>   ! Infinitives
+%<vt%>    ! Verb Transitive
+%<vi%>    ! Verb Intransitive
 
 ! Other symbols
 %>      ! Morpheme boundary
