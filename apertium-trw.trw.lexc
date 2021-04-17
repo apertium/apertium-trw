@@ -29,7 +29,7 @@ Multichar_Symbols
 %<inf%>   ! Infinitives
 %<vt%>    ! Verb Transitive
 %<vi%>    ! Verb Intransitive
-
+%<caus%>  ! Verb Causative  
 ! Other symbols
 %>      ! Morpheme boundary
 
@@ -79,13 +79,12 @@ LEXICON V-INF
 %<v%>%<f%>%<pres%>:%>جی # ;
 
 LEXICON VT
-%<v%>%<
-%<v%>%<vt%>:%>ؤ # ;
+%<v%>%<vt%>:%>و # ;
 
 LEXICON VI
 %<v%>%<m%>:%>و # ;
 %<v%>%<f%>:%>ی # ;
-%<v%>%<vi%>:%>ہوؤ # ;
+%<v%>%<caus%>:%>ؤ # ;
 
 
 LEXICON ADJ
@@ -295,7 +294,7 @@ LEXICON NounRoot
 LEXICON Verbs
 
 
-ڙینگ:ڙینگ V ;
+ڙینگ:ڙینگ VI ;
 بھی:بھی  V-INF ;
 بن:بن V-INF ;
 ڙنوگ:ڙنوگ V ;
