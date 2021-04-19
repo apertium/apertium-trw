@@ -80,11 +80,12 @@ LEXICON V-INF
 
 LEXICON VT
 %<v%>%<vt%>:%>و # ;
+%<v%>%<caus%>:%>ؤ # ;
 
 LEXICON VI
 %<v%>%<m%>:%>و # ;
 %<v%>%<f%>:%>ی # ;
-%<v%>%<caus%>:%>ؤ # ;
+
 
 
 LEXICON ADJ
@@ -506,6 +507,7 @@ LEXICON Adverbs
 علاوہ:علاوہ ADV ;
 ہأئیمُو:ہأئیمُو ADV ;
 ہیدیک:ہیدیک ADV ;
+دا:دا ADV ;
 
 LEXICON Conjunctions
 
@@ -533,7 +535,7 @@ LEXICON Conjunctions
 و:و	CNJ ;
 یأ:یأ CNJ ;	
 یا:یا CNJ ;
-
+دا:دا CNJ ;
 LEXICON Interjections
 
 آ:آ IJ ;	
