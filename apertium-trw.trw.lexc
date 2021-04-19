@@ -79,7 +79,7 @@ LEXICON V-INF
 %<v%>%<f%>%<pres%>:%>جی # ;
 
 LEXICON VT
-%<v%>%<vt%>:%>و # ;
+%<v%>%<vt%>:%>کوؤ # ;
 %<v%>%<caus%>:%>ؤ # ;
 
 LEXICON VI
@@ -105,7 +105,7 @@ LEXICON PR
 
 LEXICON ADV 
 
-%<adv%>: # ;
+%<adv%>:%>ا # ;
 
 LEXICON CNJ
 
@@ -290,10 +290,11 @@ LEXICON NounRoot
 جھا:جھا N-M ;
 جھاخ:جھاخ N-M ;
 گیل:گیل N-F ;
+ڙاد:ڙاد N-M ;
+اگھا:اگھا N-M ;
 
 
 LEXICON Verbs
-
 
 ڙینگ:ڙینگ VI ;
 بھی:بھی  V-INF ;
@@ -313,7 +314,7 @@ LEXICON Verbs
 سوخ% پوخ:سوخ% پوخ VI ;
 سیم:سیم V-INF ;
 کھا:کھا V-INF ;
-
+کَم:کَم VT ;
 
 
 
@@ -386,7 +387,7 @@ LEXICON Adjectives
 ہرکآم:ہرکآم ADJ ;
 کمَصل:کمَصل ADJ ;
 بأل:بأل ADJ ;
-
+کم:کم ADJ ;
 
 
 
@@ -498,16 +499,21 @@ LEXICON Pronouns
 مھوئے:مھوئے PR ;
 مُھن:مُھن PR ;
 پَۓ:پَۓ PR ;
+سے:سے PR ;
 
 LEXICON Adverbs
 
-امَنا:امَنا ADV ;
-اَسُودا:اَسُودا ADV ;
+امَن:امَن ADV ;
+اَسُود:اَسُود ADV ;
 اجَن:اجَن ADV ;
-علاوہ:علاوہ ADV ;
+علاو:علاو ADV ;
 ہأئیمُو:ہأئیمُو ADV ;
 ہیدیک:ہیدیک ADV ;
-دا:دا ADV ;
+ڙاد:ڙاد ADV ;
+بأل :بأل  ADV ;
+کھید:کھید ADV ;
+مھید:مھید ADV ;
+نأشام:نأشام ADV ;
 
 LEXICON Conjunctions
 
@@ -536,6 +542,7 @@ LEXICON Conjunctions
 یأ:یأ CNJ ;	
 یا:یا CNJ ;
 دا:دا CNJ ;
+
 LEXICON Interjections
 
 آ:آ IJ ;	
