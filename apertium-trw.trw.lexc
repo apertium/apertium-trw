@@ -25,11 +25,14 @@ Multichar_Symbols
 %<mf%>  ! Masculine/Feminine
 
 ! Verb forms
-%<pres%>  ! Pres
+%<pres%>  ! Present
+%<past%>  ! Past
+%<futr%>  ! Future
 %<inf%>   ! Infinitives
 %<vt%>    ! Verb Transitive
 %<vi%>    ! Verb Intransitive
 %<caus%>  ! Verb Causative  
+
 ! Other symbols
 %>      ! Morpheme boundary
 
@@ -72,19 +75,22 @@ LEXICON N-MF
 %<n%>%<mf%>%<sg%>: # ;
 %<n%>%<m%>%<pl%>: # ;
 
-LEXICON V-INF
+
+LEXICON V
 
 %<v%>%<inf%>:%>و # ;
 %<v%>%<m%>%<pres%>:%>دو # ;
 %<v%>%<f%>%<pres%>:%>جی # ;
+%<v%>%<past%>:%>وشو # ;
+%<v%>%<futr%>:%>نین # ;
 
 LEXICON VT
 %<v%>%<vt%>:%>کوؤ # ;
 %<v%>%<caus%>:%>ؤ # ;
 
 LEXICON VI
-%<v%>%<m%>:%>و # ;
-%<v%>%<f%>:%>ی # ;
+%<v%>%<vi%>%<m%>:%>و # ;
+%<v%>%<vi%>%<f%>:%>ی # ;
 
 
 
