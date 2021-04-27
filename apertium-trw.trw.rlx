@@ -1,8 +1,15 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
-DELIMITERS = "<.>" ;
+DELIMITERS = "<.>" "<!>" "<?>" ;
 
 # We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST NOUN = n;
+LIST VERB = v;
+LIST PRN = pr;
+LIST ADV = adv;
+LIST AJD = adj;
+LIST POST = post;
+LIST CNJ = cnj;
+LIST INJ = ij;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
