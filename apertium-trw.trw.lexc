@@ -31,7 +31,8 @@ Multichar_Symbols
 %<inf%>   ! Infinitives
 %<vt%>    ! Verb Transitive
 %<vi%>    ! Verb Intransitive
-%<caus%>  ! Verb Causative  
+%<caus%>  ! Verb Causative
+%<vaux%>  ! Auxilary verb 
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -68,12 +69,7 @@ LEXICON N-F
 LEXICON N-NT
 
 %<n%>%<nt%>%<sg%>: # ;
-%<n%>%<m%>%<pl%>: # ;
-
-LEXICON N-MF
-
-%<n%>%<mf%>%<sg%>: # ;
-%<n%>%<m%>%<pl%>: # ;
+%<n%>%<nt%>%<pl%>: # ;
 
 
 LEXICON V
@@ -92,6 +88,10 @@ LEXICON VT
 LEXICON VI
 %<v%>%<vi%>%<m%>:%>و # ;
 %<v%>%<vi%>%<f%>:%>ی # ;
+
+LEXICON VAUX
+%<v%>%<vaux%>: # ;
+
 
 
 
@@ -299,6 +299,9 @@ LEXICON NounRoot
 گیل:گیل N-F ;
 ڙاد:ڙاد N-M ;
 اگھا:اگھا N-M ;
+خلق:خلق N-M ;
+تماشہ:تماشہ N-F ;
+ڃِگاچا:ڃِگاچا N-M ;
 
 
 LEXICON Verbs
@@ -326,7 +329,7 @@ LEXICON Verbs
 ہو:بو V ;
 نِما:نِما V ;
 بژ:بژ V ;
-
+تُھو:تُھو VAUX ;
 
 
 
@@ -525,6 +528,8 @@ LEXICON Adverbs
 کھید:کھید ADV ;
 مھید:مھید ADV ;
 نأشام:نأشام ADV ;
+پ:پ ADV ;
+
 
 LEXICON Conjunctions
 
@@ -553,6 +558,8 @@ LEXICON Conjunctions
 یأ:یأ CNJ ;	
 یا:یا CNJ ;
 دا:دا CNJ ;
+او:او CNJ ;
+
 
 LEXICON Interjections
 
