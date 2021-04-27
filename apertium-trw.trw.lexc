@@ -90,7 +90,8 @@ LEXICON VI
 %<v%>%<vi%>%<f%>:%>ی # ;
 
 LEXICON VAUX
-%<v%>%<vaux%>: # ;
+%<v%>%<vaux%>%<sg%>:%>و # ;
+%<v%>%<vaux%>%<sg%>:%>ی # ;
 
 
 
@@ -329,7 +330,7 @@ LEXICON Verbs
 ہو:بو V ;
 نِما:نِما V ;
 بژ:بژ V ;
-تُھو:تُھو VAUX ;
+تُھ:تُھ VAUX ;
 
 
 
