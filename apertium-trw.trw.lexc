@@ -36,7 +36,7 @@ Multichar_Symbols
 
 ! Other symbols
 %>      ! Morpheme boundary
-
+%{A%}   ! Realised as ا
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -54,6 +54,10 @@ Conjunctions ;
 Interjections ;
 
 
+
+LEXICON N-PL
+%<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>:%>%{A%} # ;
 
 
 LEXICON N-M
@@ -303,7 +307,7 @@ LEXICON NounRoot
 خلق:خلق N-M ;
 تماشہ:تماشہ N-F ;
 ڃِگاچا:ڃِگاچا N-M ;
-
+ن%{%A}ن:د%{%A}د N-PL ;
 
 LEXICON Verbs
 
