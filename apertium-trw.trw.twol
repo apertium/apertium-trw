@@ -1,18 +1,23 @@
 Alphabet
 آ أ ا ب پ ت ٹ ث ج ݲ چ ڇ څ ح خ د ڈ ذ ر ڑ ز ژڙ س ش ݜ ص ض ط ظ ع غ ف ق ک گ ل م ن و ہ ھ ئ ی ے
 
- %{A%}:ا
- %>:0  ;
+%{A%}:ا %{A%}:0 
+%{N%}:ن
+%>:0  
+;
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vowel = أ ا و ی ے ;
 
-Rules 
+Cons = آ ب پ ت ٹ ث ج ݲ چ ڇ څ ح خ د ڈ ذ ر ڑ ز ژڙ س ش ݜ ص ض ط ظ ع غ ف ق ک گ ل م ن ہ ھ ئ ;
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+Rules
+ 
+"Delete {A}"
+
+%{A%}:0 <=> _ %>: %{N%}: ;
+
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
