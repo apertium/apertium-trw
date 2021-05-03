@@ -56,6 +56,12 @@ Interjections ;
 
 
 LEXICON N-PL
+
+%<n%>%<m%>%<sg%>:%>ان # ;
+%<n%>%<m%>%<pl%>:%>ن # ;
+
+
+LEXICON N-PLU
 %<n%>%<m%>%<sg%>: # ;
 %<n%>%<m%>%<pl%>:%>%{A%} # ;
 
@@ -307,7 +313,14 @@ LEXICON NounRoot
 خلق:خلق N-M ;
 تماشہ:تماشہ N-F ;
 ڃِگاچا:ڃِگاچا N-M ;
-ن%{%A}ن:د%{%A}د N-PL ;
+ن%{%A}ن:د%{%A}د N-PLU ;
+د:د N-PL ;
+گ:گ N-PL ;
+ڙ:ڙ N-PL ;
+پ:پ N-PL ;
+ک:ک N-PL ;
+ل:ل N-PL ;
+
 
 LEXICON Verbs
 
