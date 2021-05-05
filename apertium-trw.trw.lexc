@@ -17,6 +17,7 @@ Multichar_Symbols
 ! Number morphology
 %<pl%>  ! Plural
 %<sg%>  ! Singular
+%<num%> ! Number 
 
 ! Gender
 %<m%>   ! Masculine
@@ -52,6 +53,7 @@ Verbs ;
 Adverbs ;
 Conjunctions ;
 Interjections ;
+Numerals ;
 
 
 
@@ -85,7 +87,7 @@ LEXICON V
 %<v%>%<inf%>:%>و # ;
 %<v%>%<m%>%<pres%>:%>دو # ;
 %<v%>%<f%>%<pres%>:%>جی # ;
-%<v%>%<past%>:%>وشو # ;
+%<v%>%<past%>:%>ودُود # ;
 %<v%>%<futr%>:%>نین # ;
 %<v%>%<past%>%<pl%>:%>ئیشی # ;
 
@@ -94,8 +96,8 @@ LEXICON VT
 %<v%>%<caus%>:%>ؤ # ;
 
 LEXICON VI
-%<v%>%<vi%>%<m%>:%>و # ;
-%<v%>%<vi%>%<f%>:%>ی # ;
+%<v%>%<vi%>%<m%>:%> # ;
+%<v%>%<vi%>%<f%>:%> # ;
 
 LEXICON VAUX
 %<v%>%<vaux%>%<sg%>:%>و # ;
@@ -107,6 +109,10 @@ LEXICON VAUX
 LEXICON ADJ1
 
 %<adj%>: # ;
+
+LEXICON NUM
+
+%<num%>: # ;
 
 LEXICON ADJ2
 
@@ -238,7 +244,7 @@ LEXICON NounRoot
 ثواب:ثواب N-M ;
 ٹأ:ٹأ N-F ;
 ٹأنگے:ٹأنگے N-F ;
-ٹاپ:ٹاپ N-MF ;
+ٹاپ:ٹاپ N-NT
 ٹاپا:ٹاپا N-M ;
 ٹاٹ:ٹاٹ N-M ;
 ٹاٹکئ:ٹاٹکئ N-M ;
@@ -259,9 +265,9 @@ LEXICON NounRoot
 ٹرک:ٹرک N-F ;
 ٹُرنُوکُو:ٹُرنُوکُو N-M ;
 ٹغر:ٹغر N-M ;
-ٹقألی:ٹقألی N-MF ;
+ٹقألی:ٹقألی N-NT ;
 ٹقا:ٹقا N-F ;
-ٹقالے:ٹقالے N-MF ;
+ٹقالے:ٹقالے N-F;
 ٹُک:ٹُک N-M ;
 ٹکا:ٹکا N-F ;
 ٹِکا:ٹِکا N-M ;
@@ -276,7 +282,7 @@ LEXICON NounRoot
 جأگِنی:جأگِنی N-M;
 جأمیر:جأمیر N-F ;
 جادو:جادو N-M ;
-جادوگر:جادوگر N-MF ;
+جادوگر:جادوگر N-NT
 جاش:جاش N-F ;
 جال:جال N-M ;
 جالی:جالی N-F ;
@@ -323,6 +329,20 @@ LEXICON NounRoot
 ڙ:ڙ N-PL1 ; 
 ب:ب N-PL1 ;
 گ:گ N-PL1 ;
+شِیر:شِیر N-F ;
+خلق:خلق N-M ; 
+کمرا:کمرا N-M ;
+گُر:گُر N-M ;
+سے:سے N-M ; 
+اَدھیلا:اَدھیلا N-NT ;
+خُدَئی:خُدَئی N-M ; 
+افلَتے:افلَتے N-F ;
+آگَن:آگَن N-M ;
+بھار:بھار N-M ;
+کُژو:کُژو N-M ;
+دیِشے:دیِشے N-M ; 
+بوگو:بوگو N-NT ;
+عادت:عادت N-F ;
 
 
 LEXICON Verbs
@@ -351,7 +371,15 @@ LEXICON Verbs
 نِما:نِما V ;
 بژ:بژ V ;
 تُھ:تُھ VAUX ;
-
+کھ:کھ V ;
+کو:کو V ;
+گِھن:گِھن V ;
+غَرا:غَرا V ;
+بھئی:بھئی V ;
+آپ:آپ VI ; 
+نَڑَ:نَڑَ V ;
+ڈی:ڈی V ;
+اَگڑ:اَگڑ V ;
 
 
 
@@ -430,6 +458,11 @@ LEXICON Adjectives
 کول:کول ADJ2 ; 
 انٹم:انٹم ADJ2 ;
 شد:شد ADJ2 ;
+یس:یس ADJ1 ;
+ایس:ایس ADJ1 ;
+لوؤ:لوؤ ADJ1 ; 
+لیوَنئی:لیوَنئی ADJ2 ;
+آگیش:آگیش ADJ1 ;
 
 
 
@@ -516,6 +549,11 @@ LEXICON Postpositions
 ہے:ہے POST ;	
 یِی:یِی POST ;	
 ییسی:ییسی POST ;
+سِی:سِی POST ;
+مھی:مھی POST ;
+کأ:کأ POST ;
+بھار:بھار POST ;  
+
 
 LEXICON Pronouns
 
@@ -542,6 +580,15 @@ LEXICON Pronouns
 مُھن:مُھن PR ;
 پَۓ:پَۓ PR ;
 سے:سے PR ;
+تُونُو:تُونُو PR ;
+مأ:مأ PR ;  
+تو:تو PR ;
+کا:کا PR ;
+تھیئے:تھیئے PR ; 
+تیس:تیس PR ; 
+ایس:ایس PR ;
+چھی:چھی PR ;
+
 
 LEXICON Adverbs
 
@@ -557,6 +604,9 @@ LEXICON Adverbs
 مھید:مھید ADV ;
 نأشام:نأشام ADV ;
 پ:پ ADV ;
+اَدھیل:اَدھیلا ADV ;
+اگ:اگ ADV ; 
+
 
 
 LEXICON Conjunctions
@@ -587,6 +637,7 @@ LEXICON Conjunctions
 یا:یا CNJ ;
 دا:دا CNJ ;
 او:او CNJ ;
+پا:پا CNJ ;
 
 
 LEXICON Interjections
@@ -616,6 +667,18 @@ LEXICON Interjections
 چوہو:چوہو IJ ;	
 خا:خا IJ ;
 
+
+LEXICON Numerals
+
+ایک:ایک NUM ;
+دُو:دُو NUM ;
+چَوؤ:چَوؤ NUM ;
+پائی:پائی NUM
+ڜو:ڜو NUM ;
+سات:سات NUM ;
+آٹھ:آٹھ NUM ;
+نوم:نوم NUM ;
+دَش:دَش NUM ;
 
 
 
