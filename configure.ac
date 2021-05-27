@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium trw], [0.1.0], [memduhg@gmail.com], [apertium-trw], [http://wiki.apertium.org/wiki/Apertium-trw])
+AC_INIT([Apertium trw], [0.1.0], [memduhg@gmail.com], [apertium-trw], [https://wiki.apertium.org/wiki/Apertium-trw])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
